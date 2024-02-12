@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "classpath:features",
         glue = "framework.steps",
-        tags = "@Regression",
+        tags = "@Smoke",
         dryRun = false,
         plugin = {
                 "html:target/cucumber_report/report.html",
