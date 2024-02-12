@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>FinalProject</artifactId>
+    <artifactId>raptors-bdd-sadiqullahomarzai-final-project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,7 +13,6 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -38,7 +37,6 @@
             <version>2.15.1</version>
         </dependency>
     </dependencies>
-
     <!--    Plugins to Run Test and Also Generate Cucumber reports.-->
     <build>
         <plugins>
@@ -69,7 +67,7 @@
                             <projectName>Raptors Cucumber Framework</projectName>
                             <skip>false</skip>
                             <outputDirectory>${project.build.directory}/cucumber-report</outputDirectory>
-                            <inputDirectory>${project.build.directory}/jsonReports</inputDirectory>
+                            <inputDirectory>${project.build.directory}/json-Report</inputDirectory>
                             <jsonFiles>
                                 <param>**/*.json</param>
                             </jsonFiles>
